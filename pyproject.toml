@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "bakery"
 version = "0.1.0"
-description = "\"Bakery API\""
+description = "Bakery API"
 authors = ["Mari0nV"]
 
 [tool.poetry.dependencies]
