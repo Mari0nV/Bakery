@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "bakery"
+version = "0.1.0"
+description = "\"Bakery API\""
+authors = ["Mari0nV"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+SQLAlchemy = "^1.4.39"
+fastapi = "^0.79.0"
+uvicorn = "^0.18.2"
+psycopg2 = "^2.9.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
