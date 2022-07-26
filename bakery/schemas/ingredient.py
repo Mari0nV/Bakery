@@ -10,3 +10,7 @@ class Ingredient(BaseModel):
 
     class Config:
         orm_mode = True
+
+
+class Ingredients(BaseModel):
+    ingredients: list[Ingredient]
